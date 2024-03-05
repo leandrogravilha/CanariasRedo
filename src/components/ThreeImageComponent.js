@@ -26,7 +26,7 @@ export default function ThreeImageComponent({
         />
       </div>
 
-      <p className="lg:w-1/2 text-justify text-lg sm:w-3/4">{text}</p>
+      <p className="lg:w-1/2 text-justify text-md lg:text-lg  sm:w-3/4">{text}</p>
     </>
   );
 }

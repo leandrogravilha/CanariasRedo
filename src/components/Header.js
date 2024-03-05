@@ -49,7 +49,7 @@ export default function Header() {
         </ul>
       </div>
       <div className="hidden col-span-1 justify-center w-full md:flex lg:flex sm:hidden xs:hidden">
-        <img alt="logo" src="/Canarias_Logo.png" className="w-[128px]" />
+        <img alt="logo" src="/Canarias_Logo4.png" className="w-[128px]" />
       </div>
       <div className="hidden col-span-2 md:flex lg:flex sm:hidden xs:hidden">
         <ul className="flex flex-row gap-8 items-center w-full justify-around">
@@ -98,11 +98,11 @@ export default function Header() {
         {/* deixar em branco */}
       </div>
       <div className="col-span-1 flex lg:hidden md:hidden sm:flex xs:flex p-2">
-        <img alt="logo" src="/Canarias_Logo.png" className="w-[128px]" />
+        <img alt="logo" src="/Canarias_Logo4.png" className="w-[128px]" />
       </div>
 
       {show && (
-        <Sidebar handleShow={handleShow} scrollToSection={scrollToSection}/>
+        <Sidebar handleShow={handleShow} scrollToSection={scrollToSection} />
       )}
     </header>
   );

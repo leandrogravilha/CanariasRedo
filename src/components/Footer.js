@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="h-40 bg-[#0F7055] text-white">
-      <div className="flex flex-row ml-10 my-10">
+    <footer className="bg-[#0F7055] text-white">
+      <div className="flex lg:flex-row flex-col ml-10 my-10 space-y-2 lg:space-y-0">
         <div className="w-1/2 flex flex-col">
           <h1 className="mb-2 font-bold">Contactos</h1>
           <p>leandrograv.ilha@gmail.com</p> <p>+351 925892826</p>

@@ -9,7 +9,7 @@ function App() {
       <Header />
 
       {/*Section 1*/}
-      <div className="px-10">
+      <div className="px-10 pt-10">
         <Element name="inicio">
           <div className="flex flex-col mt-40">
             <div className="flex flex-col justify-center text-center items-center space-y-10">
@@ -19,13 +19,13 @@ function App() {
                 alt="Corralejo"
                 className="aspect-video lg:w-1/2 sm:w-3/4"
               />
-              <p className="lg:w-1/2 text-justify text-lg sm:w-3/4">
-                FuerteVentura é uma ilha do arquipélago das Canárias. Apesar de
-                ser a mais subdesenvolvida, não fica atrás em termos tropicais,
-                pois tem belíssimas praias e ótimos restaurantes. Aqui também
-                encontram-se comunidades de diversas nacionalidades como
-                italianos, alemães e até britânicos, todos com o seu impacto
-                cultural na ilha.
+              <p className="lg:w-1/2 text-justify text-md lg:text-lg sm:w-3/4">
+                FuerteVentura é uma das ilhas do arquipélago das Canárias.
+                Apesar de ser subdesenvolvida, não fica atrás em termos
+                tropicais. Tem belíssimas praias, ótimos restaurantes e
+                comunidades de diversas nacionalidades como italianos, alemães e
+                até britânicos. Todos com o seu impacto cultural na ilha, o que
+                torna a uma experiência única.
               </p>
             </div>
           </div>
@@ -40,8 +40,8 @@ function App() {
                 imgSrc2={"/inet2.webp"}
                 imgSrc3={"/inet_group.webp"}
                 text={`Inet sistemas é uma distribuidora de internet possui um apoio ao
-            cliente de altíssima qualidade já que é tudo tratado pessoalmente.
-            Nós como estagiários fomos bem recebidos, a equipa estava pronta
+            cliente de qualidade, já que tudo é tratado pessoalmente.
+            Fomos bem recebidos, a equipa estava pronta
             para responder às nossas necessidades e nós prontos para retribuir o
             favor. Aprendemos a trabalhar numa nova área, como instalar internet
             em casas de clientes, como a fibra chega às mesmas, e também
@@ -55,9 +55,8 @@ function App() {
                 imgSrc2={"/geladoGrande.webp"}
                 imgSrc3={"/crepe.webp"}
                 text={`É uma das gelatarias italianas mais populares de FuerteVentura, isto
-            porque tudo o que faz é artesanal. Excelente ponto turístico, pois
-            contém uma ótima acessibilidade. A relação entre os estagiários e os
-            tutores, foi boa, quando alguma de nós tínhamos algum problema eles
+            porque tudo o que faz é artesanal. Excelente ponto turístico. A relação entre os estagiários e os
+            tutores, foi boa, se alguma de nós tínha algum problema eles
             estiveram sempre dispostos a ajudar, foram sempre alegres e bem
             educados. Aprendemos uma nova língua, como fazer cones artesanais e
             gelados, utilizamos as experiências retiradas dos serviços em que
@@ -78,12 +77,11 @@ function App() {
                   className="lg:w-1/2 mb-5 lg:mb-0"
                 />
 
-                <p className="lg:w-1/2 text-justify">
+                <p className="lg:w-1/2 text-justify text-md lg:text-lg ">
                   No início foi tudo muito estranho, pois estávamos longe das
-                  nossas famílias, amigos e das nossas tradições num país que
+                  nossas famílias, amigos e das nossas tradições, num país que
                   tão pouco a língua compreendíamos, no entanto, aprendemos
-                  muito de como é viver longe do mesmos e também a gerir o nosso
-                  tempo e dinheiro.
+                  muito, especialmente de como é viver longe de casa.
                 </p>
               </div>
 
@@ -94,15 +92,15 @@ function App() {
                   className="lg:w-1/2 mb-5 lg:mb-0"
                 />
 
-                <p className="lg:w-1/2 lg:mr-10 text-justify">
+                <p className="lg:w-1/2 lg:mr-10 text-justify text-md lg:text-lg ">
                   Dito isto, nós crescemos com esta experiência enquanto
-                  aproveitamos ao máximo o nosso tempo, quando possível, pois
-                  com horários e folgas diferentes tornou-se difícil encontrar
-                  dias em que poderíamos explorar juntos.
+                  aproveitamos ao máximo, quando possível, pois com horários e
+                  folgas diferentes tornou-se difícil encontrar dias em que
+                  poderíamos explorar juntos.
                 </p>
               </div>
 
-              <p className="lg:w-1/2 sm:w-3/4 gap-x-5 text-justify">
+              <p className="lg:w-1/2 sm:w-3/4 gap-x-5 text-justify text-md lg:text-lg ">
                 Resumindo, sentimos mais preparados para a nossa próxima etapa,
                 seja ela prosseguir estudos ou ingressar para o mercado de
                 trabalho, seguros das nossas capacidades.
@@ -121,18 +119,18 @@ function App() {
                 alt="Corralejo"
                 className="aspect-video lg:w-1/2 sm:w-3/4"
               />
-              <p className="lg:w-1/2 text-justify text-lg sm:w-3/4">
+              <p className="lg:w-1/2 text-justify text-lg sm:w-3/4 text-md lg:text-lg ">
                 A Ilha dos Lobos é uma área protegida no arquipélago das
                 Canárias que não é habitada desde 1968. Como está próxima do
                 norte de áfrica, ela encontra-se sempre em temperaturas elevadas
-                especialmente em torno do seu vulcão, assim sendo, a ilha é um
-                habita natural para diversas espécies de plantas, que conseguem
-                sobreviver neste clima, e belíssimas zonas balneares. Um sítio a
-                visitar-se numa ida a Fuerteventura.
+                especialmente em torno do seu vulcão. A ilha é um habita natural
+                para diversas espécies de plantas, que conseguem sobreviver
+                neste clima, clima este que realça as belíssimas zonas
+                balneares. Um sítio a visitar-se numa ida a Fuerteventura.
               </p>
             </div>
 
-            <div className="lg:grid lg:grid-cols-3 lg:justify-center flex flex-col mt-16 mb-8 lg:gap-x-10 space-y-10 lg:space-y-0 h-full px-10 lg:px-0 ">
+            <div className="lg:grid lg:grid-cols-3 lg:justify-center flex flex-col mt-16 mb-8 lg:gap-x-10 space-y-10 lg:space-y-0 h-full">
               <div className="lg:col-span-1 flex flex-col h-full">
                 <h1 className="pb-10 font-bold text-2xl text-center">
                   Soltavento
@@ -144,7 +142,7 @@ function App() {
                     className="mx-auto h-full object-cover aspect-video lg:w-full sm:w-5/6"
                   />
                 </div>
-                <p className="mt-5 mx-auto lg:w-full sm:w-5/6">
+                <p className="mt-5 mx-auto lg:w-full sm:w-5/6 text-md lg:text-lg ">
                   O Soltavento é um restaurante à beira-mar que conta com
                   diversos pratos típicos de Fuerteventura, Itália e Espanha.
                   Tem um excelente serviço ao cliente e garçons de diversas

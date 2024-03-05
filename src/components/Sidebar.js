@@ -3,7 +3,7 @@ export default function Sidebar({handleShow, scrollToSection}) {
   return (
     <div>
       <div className="absolute top-0 left-0  bg-black w-screen h-screen z-10 opacity-30"></div>
-      <div className="absolute top-0 left-0 z-20 h-screen w-1/2   bg-white ease-in-out">
+      <div className="absolute top-0 left-0 z-20 h-screen lg:w-1/2 w-3/4  bg-white ease-in-out">
         <button
           className="ml-12 mt-16 hover:bg-gray-100 rounded-sm"
           onClick={handleShow}
